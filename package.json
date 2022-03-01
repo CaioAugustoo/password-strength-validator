@@ -1,0 +1,22 @@
+{
+  "name": "password-strength-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev -r --transpile-only --ignore-watch node_modules --respawn ./cli.ts"
+  },
+  "keywords": [],
+  "author": "Caio Augusto:caioamfr@gmail",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/prompts": "^2.0.14",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
+}
