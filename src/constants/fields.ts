@@ -1,5 +1,5 @@
 export const fields = {
-  ensureTwoUppercase: {
+  ensureUppercase: {
     regex: /(?=.*[A-Z])/,
     message: "Password contain at least one uppercase letter",
   },
